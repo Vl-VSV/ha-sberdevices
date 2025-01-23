@@ -19,8 +19,8 @@ from homeassistant.helpers.entity_platform import AddEntitiesCallback
 from homeassistant.util.color import brightness_to_value, value_to_brightness
 from homeassistant.util.scaling import scale_ranged_value_to_int_range
 
-from .api import DeviceAPI, HomeAPI
-from .const import DOMAIN
+from custom_components.sberdevices.api import DeviceAPI, HomeAPI
+from custom_components.sberdevices.const import DOMAIN
 
 
 # hardcode xd
